@@ -4,7 +4,7 @@ public class Program_MagicNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int num=17;
+		int num=172;
 		int originalNum=num;
         int sum=0;
         int finalSum=0;
@@ -28,7 +28,7 @@ public class Program_MagicNumber {
         	System.out.println("Final Digit is:"+finalSum);
         }
         
-        if(sum==1)
+        if(finalSum==1)
         	System.out.println(originalNum+" is a Magic Number");
         else
         	System.out.println(originalNum+" is not a Magic Number");
